@@ -1,17 +1,19 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
+		"name": "Maccabees",
+		"unitType": "Sword",
+		"uniqueTo": "Israel",
+		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		"strength": 10,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": ["All tiles cost 1 movement",
+					"Earn [30]% of killed [Melee] unit's [Cost] as [Faith]"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	}
 ]

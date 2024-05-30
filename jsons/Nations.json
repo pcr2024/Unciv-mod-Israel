@@ -1,38 +1,37 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"name": "Israel",
+		"leaderName": "David",
+		"adjective": ["israelite"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+        "startIntroPart1": "Dawn of Man Blessings of God towards you, honorable King David of the Kingdom of Israel. You succeeded in truly unifying the Israelite tribes, and set up a monarchical government. Embarked on successful military campaigns against Israel's enemies, you defeated nearby regional entities such as the Philistines, thus creating secure borders for Israel. Under your holy guidance, Israel grew into a regional power. Under your House, the united Kingdom of Israel achieved prosperity and superiority over its neighbours.",
+        "startIntroPart2": "Your people still lie scattered through the world, longing for a King to truly unite them. Will you listen their clamor? Will you build a civilization that will stand the test of time?",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+        "declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen. We ride to war!",
+		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your balls!",
+		"defeated": "My Lord has punished my people, but we shall return to the light.",
+		"introduction": "Well met, I'm King David of the Kingdom of Israel, and I hope we won't need any unnecessary bloodshed.",
+		"tradeRequest": "Let us join our forces together and reap the rewards.",
+
+		"neutralHello": "God has given good to you.",
+
+		"hateHello": "Well?",
+        "outerColor": [0,0,255],
+        "innerColor": [255,255,255],
+
+		"favoredReligion": "Judaism",
+		"uniqueName": "Chosen People",
+		"uniques": ["May buy [non-[Unbuildable]] buildings with [Faith] for [3] times their normal Production cost",
+					"May not generate great prophet equivalents naturally",
+					"Free [Great Prophet] appears <upon entering the [Classical era]>",
+		    		"May buy [Great Prophet] units for [85] [Faith] [in holy cities] at an increasing price ([50])",
+			    	"May buy [Great Prophet] units for [100] [Faith] [non-[in holy cities]] at an increasing price ([500])"],
+		"cities": ["Jerusalem","Hebron","Gaza","Jericho","Bethlehem","Nazareth","Meggido","Beer-Sheba","Judah","Hazor","Michmash","Caesarea",
+					"Emmaus","Tirzah","Gilgal","Joppa","Shiloh","Ashdod","Ashkelton","Samara","Gezer","Gibeon","Tamar","Beth-horon","Geba",
+					"Gath","Avaris","Jabesh-Gilead","Dan"],
+		// Llanfairpwllgwyngyll should actually be Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
+        "spyNames": ["Josue","Esther","Judas","Rut","Shammua","Shaphat","Caleb","Joshua","Ammiel","Geuel"]
+    }
 ]

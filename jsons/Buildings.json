@@ -1,25 +1,21 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Shrine",
+		"uniqueTo": "Israel",
+		"faith": 3,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled"]
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"name": "Synagogue",
+		"replaces": "Mosque",
+		"uniqueTo": "Israel",
+		"cost": 60,
+		"science": 2,
+		"faith": 3,		
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": ["Unavailable <before founding a religion>", "Hidden when religion is disabled", "Destroyed when the city is captured"],
 	}
 ]
